@@ -3,3 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__imagem{
+    background-image: url(../src/forca.png);
+    background-repeat: no-repeat;
+    width: 234px;
+    height: 272px;
+}
