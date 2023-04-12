@@ -1,13 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family= Manrope :wght@400;600;700;800 & display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+:root{
+    --cor-background: #454545;
+    --cor-secundaria: #FF6000;
+    --cor-terciaria: #FFA559;
+    --cor-quartenaria: #FFE6C7;
+
+    --font-principal: 'Manrope', sans-serif;
+}
+
+.body{
+    width: 100vw;
+    height: 90vh;
+    margin-top: 10px;
+    background-color: var(--cor-background);
+    font-family: var(--font-principal);
+}
+
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .container__imagem{
@@ -15,4 +36,21 @@
     background-repeat: no-repeat;
     width: 234px;
     height: 272px;
+}
+
+.container__palavra-secreta{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    margin-top: 3vh;
+}
+
+.letras{
+    width: 1rem;
+    text-align: center;
+    border-bottom: 2px solid var(--cor-secundaria);
+    color: var(--cor-quartenaria);
+    margin: 0 2px;
 }
