@@ -12,7 +12,7 @@
     --cor-terciaria: #FFA559;
     --cor-quartenaria: #FFE6C7;
 
-    --font-principal: 'Manrope', sans-serif;
+    --font-principal:'Manrope', sans-serif;
 }
 
 .body{
@@ -52,5 +52,77 @@
     text-align: center;
     border-bottom: 2px solid var(--cor-secundaria);
     color: var(--cor-quartenaria);
-    margin: 0 2px;
+    margin: 0 2px 5px 2px;
+}
+
+.container__teclado{
+    margin-top: 2rem;
+}
+
+.teclas button{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 2px 2px 5px 2px;
+    cursor: pointer;
+    border: 2px solid var(--cor-terciaria);
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.teclas button:hover{
+    transform:scale(1.2);
+}
+
+.container__categoria{
+    margin-top: 2rem;
+    color: var(--cor-quartenaria);
+    font-size: 1.2rem;
+}
+
+@media (min-width: 376px){
+
+    .letras{
+        width: 1.5rem;
+    }
+
+    .teclas button{
+        width: 1.8rem;
+        height: 1.8rem;
+    } 
+
+    .container__categoria{
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 426px){
+
+    .letras{
+        width: 1.7rem;
+    }
+
+    .teclas button{
+        width: 2.0rem;
+        height: 2.0rem;
+    } 
+
+    .container__categoria{
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 768px){
+
+    .letras{
+        width: 3.0rem;
+    }
+
+    .teclas button{
+        width: 3.0rem;
+        height: 3.0rem;
+    } 
+
+    .container__categoria{
+        font-size: 1.8rem;
+    }
 }
