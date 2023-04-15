@@ -73,11 +73,18 @@
     transform:scale(1.2);
 }
 
+.teclas button:disabled{
+    cursor: not-allowed;
+}
+
 .container__categoria{
     margin-top: 2rem;
     color: var(--cor-quartenaria);
     font-size: 1.2rem;
 }
+
+
+/*Media querys*/
 
 @media (min-width: 376px){
 
