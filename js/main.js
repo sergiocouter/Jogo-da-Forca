@@ -46,7 +46,7 @@ const palavras = [
         categoria: "PAÍSES"
     },
     palavra011 = {
-        nome: "BANANA",
+        nome: "ACEROLA",
         categoria: "FRUTAS"
     },
     palavra012 = {
@@ -82,7 +82,7 @@ const palavras = [
         categoria: "FRUTAS"
     },
     palavra020 = {
-        nome: "LARANJA",
+        nome: "CEREJA",
         categoria: "FRUTAS"
     },
     palavra021 = {
@@ -118,7 +118,7 @@ const palavras = [
         categoria: "ESPORTE"
     },
     palavra029 = {
-        nome: "AMORA",
+        nome: "RUGBY",
         categoria: "ESPORTE"
     },
     palavra030 = {
